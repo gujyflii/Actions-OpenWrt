@@ -14,7 +14,7 @@ on:
     types: published
   push:
     branches:
-      - lede-17.01
+      - master
     paths:
       - 'lean-openwrt.config'
 # schedule:

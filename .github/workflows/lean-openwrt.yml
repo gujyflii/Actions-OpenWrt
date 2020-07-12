@@ -16,7 +16,7 @@ on:
     branches:
       - master
     paths:
-      - 'lean-openwrt.config'
+      - 'lean-openwrt111.config'
 # schedule:
 #   - cron: 0 20 * * *
 #  watch:

@@ -16,7 +16,7 @@ on:
     branches:
       - master
     paths:
-      - 'lean-openwrt-1.config'
+      - 'lean-openwrt.config'
 # schedule:
 #   - cron: 0 20 * * *
 #  watch:
@@ -26,7 +26,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/openwrt
   REPO_BRANCH: lede-17.01
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: lean-openwrt-1.config
+  CONFIG_FILE: lean-openwrt.config
   DIY_P1_SH: diy-part3.sh
   DIY_P2_SH: diy-part2.sh
   TZ: Asia/Shanghai

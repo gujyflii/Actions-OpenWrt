@@ -5,6 +5,8 @@
 ![GitHub Forks](https://img.shields.io/github/forks/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Forks&logo=github)
 
 Build OpenWrt using GitHub Actions
+安装 Cloudflare DDNS 组件
+默认情况下 Open­Wrt 中并没有 Cloud­flare DDNS 功能，需要在编译时选择相应的组件，其位置在 Network→IP Addresses and Names。
 
 [Read the details in my blog (in Chinese) | 中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
